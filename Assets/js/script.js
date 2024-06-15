@@ -39,7 +39,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   const randomEmployee = employees[Math.floor(Math.random() * employees.length)]
   
-  return `Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName}, you are out random drawing winner!`
+  return `Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName}, you are our random drawing winner!`
 }
 
 /*
