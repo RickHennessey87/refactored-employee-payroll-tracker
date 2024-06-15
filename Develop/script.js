@@ -4,15 +4,14 @@ const employees = [];
 
 // Collect employee data
 const collectEmployees = function() {
-  // TODO: Get user input to create and return an array of employee objects
   let addEmployee = true;
 
   while (addEmployee) {
     const employee = {};
+
     employee.firstName = prompt("Enter employee's first name.");
     employee.lastName = prompt("Enter  employee's last name.")
     employee.salary = parseInt(prompt("Enter employee's salary."));
-
 
     if (isNaN(employee.salary)) {
       employee.salary = 0;
@@ -27,7 +26,6 @@ const collectEmployees = function() {
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary
   let salarySum = 0;
 
   for (employee of employeesArray) {
@@ -39,8 +37,8 @@ const displayAverageSalary = function(employeesArray) {
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
-  // TODO: Select and display a random employee
   const randomEmployee = employees[Math.floor(Math.random() * employees.length)]
+  
   return `Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName}, you are out random drawing winner!`
 }
 
