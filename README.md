@@ -7,7 +7,7 @@ This application enables a payroll manager to view and manage employee payroll d
 
 ## Screenshot
 
-![screenshot](./Assets/appScreenshot.jpg)
+![screenshot](./Assets/images/appScreenshot.jpg)
 
 ## Credits 
 
